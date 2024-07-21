@@ -1,4 +1,59 @@
 body {
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 16px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+}
+
+.container > div {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+	background-color: #1f2937;
+    color: white;
+}
+
+.footer {
+    height: 75px;
+    line-height: 75px;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+	background-color: #1f2937;
+    flex: 1;
+}
+
+.info {
+	background-color: whitesmoke;
+    flex: 1;
+}
+
+.quote {
+	background-color: #e5e7eb;
+    flex: 1;
+}
+
+.action {
+	background-color: whitesmoke;
+    flex: 1;
 }
